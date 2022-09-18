@@ -1,0 +1,35 @@
+.custom__header {
+  width: 100%;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.custom__header__middle ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+.custom__header ul li {
+  margin-right: 20px;
+}
+.custom__header__right button {
+  margin-right: 20px;
+}
+.custom__header__left {
+  margin: 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+.custom__header__link {
+  color: black;
+}
+.custom__header__logo {
+  color: black;
+  transition: 0.3s linear;
+}
+.custom__header__logo:hover {
+  text-decoration: none;
+  color: #fcbe00;
+}
